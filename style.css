@@ -1,0 +1,165 @@
+* {
+    box-sizing: border-box;
+  }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+.grid-container{
+    display: grid;
+}
+body{
+    background-color: rgb(245, 145, 239)
+}
+#botao{
+    border-color: rgb(8, 33, 146);
+    width: 10%;
+    height: 40%;
+    color: white;
+    background-color: rgb(8, 33, 146);
+}
+h1{
+    color: white;
+    font-size: 350%;
+    font-family: sans-serif;
+}
+h2{
+    color: white;
+    font-size: 200%;
+    margin-left: 250px;
+    font-family: sans-serif;
+}
+h3{
+    color: white;
+    font-size: 150%;
+    font-family: sans-serif;
+}
+h4{
+    color: white;
+    font-size: 150%;
+    font-family: sans-serif;
+}
+h5{
+    color: white;
+    font-size: 150%;
+    font-family: sans-serif;
+}
+h7{
+    color: white;
+    font-size: 150%;
+    font-family: sans-serif;
+}
+p{
+    color: white;
+    font-size: 250%;
+    font-family: sans-serif;
+}
+.item1{
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+.item2{
+    grid-column-start: 1;
+}
+.item3{
+    grid-column-start: 3;
+    grid-row-start: 2;
+}
+
+#euaqui{
+    width: 80%;
+    border-radius: 50%;
+    max-width: 100%;
+    height: 50%;
+}
+
+.grid-container1{
+    display: grid;
+}
+
+#boneco{
+    border-radius: 50%;
+    width: 50%;
+    height: 120%
+}
+
+.item4{
+    grid-column-start: 2;
+}
+.item5{
+    grid-column-start: 1;
+    grid-row-start: 2;
+}
+.item6{
+    grid-column-start: 1;
+    grid-row-start: 3;
+}
+.item7{
+    grid-column-start: 2;
+}
+.item8{
+    grid-row-start: 3;
+}
+.grid-container2{
+    display: grid;
+    grid-template-areas:
+    'boneco'
+    'titulo'
+    'informacao';
+    gap: 1%;
+    grid-template-columns: 30% 40% 10% ;
+    grid-template-rows: 10% 30% 90%;
+}
+body.contraste {
+    background: #000000;
+}
+
+.item9{
+    grid-area: "titulo";
+    grid-column-start: 2;
+}
+.item10{
+    grid-area: "informacao";
+    grid-column-start: 2;
+    margin-left: 45%;
+}
+.item11{
+    grid-area: "boneco";
+    grid-column-start: 2;
+}
+.grid-container3{
+    display: grid;
+    grid-template-columns: 11fr 5fr 4fr 5fr;
+}   
+.item12{
+    grid-column-start: 4;
+    grid-column-end: 2;
+}
+.item13{
+    grid-column-start: 4;
+    grid-column-end: 1;
+}
+.grid-container4{
+    display: grid;
+    grid-template-columns: 1fr 12fr 2fr 40fr;
+    background-color: black;
+}
+.item15{
+    grid-column-start: 2;
+}
